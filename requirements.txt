@@ -1,0 +1,12 @@
+ctransformers==0.2.5
+# We need ctransformer library, in order to load the quantized model.
+# If you are using langchain, you need ctransformers==0.2.5 (library)
+
+sentence-transformers==2.2.2
+# This is a free embedding model, which is used to get the embeddings of the sentences.
+
+pinecone-client
+langchain==0.0.225
+flask
+pypdf
+
